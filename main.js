@@ -77,7 +77,7 @@ const criarNovoParticipante = (participante) => {
 
 const atualizarLista = (participantes) => {
 //estrutura de repetição
-let output ="" 
+let output = "" 
 for(let participante of participantes){
     output = output +  criarNovoParticipante(participante)
 }

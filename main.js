@@ -68,16 +68,16 @@ const criarNovoParticipante = (participante) => {
         <br>
         <small>${participante.email}</small>
         </td>
-         <td>${participante.dataInscrico}</td>
+         <td>${participante.dataInscricao}</td>
         <td>${participante.dataCheckIn}</td>
 </tr>
 `
 
 }
 
-const atualizarLista = (participante) => {
+const atualizarLista = (participantes) => {
 
 // substituir informação 
-document.querySelector('tbody').innerHTML = criarNovoParticipante(participante)
+document.querySelector('tbody').innerHTML = criarNovoParticipante(participantes[2])
 } 
-atualizarLista(participantes[2])
+atualizarLista(participantes)

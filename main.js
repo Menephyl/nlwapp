@@ -6,9 +6,10 @@ const criarNovoParticipante = () => {
         <br>
         <small>diego@gmail.com</small>
         </td>
-    <td>há 3 dias </td>
-    <td>há 3 minutos</td>
-</tr>´
+         <td>há 3 dias </td>
+        <td>há 3 minutos</td>
+</tr>
+´
 
 }
 

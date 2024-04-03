@@ -12,7 +12,7 @@ const criarNovoParticipante = (participante) => {
          <td>
         <strong>${participante.nome}</strong>
         <br>
-        <small>diego@gmail.com</small>
+        <small>${participante.email}</small>
         </td>
          <td>há 3 dias </td>
         <td>há 3 minutos</td>

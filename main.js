@@ -1,7 +1,7 @@
 const criarNovoParticipante = () => {
     return ´
     <tr>
-    <td>
+         <td>
         <strong>Diego Fernandes</strong>
         <br>
         <small>diego@gmail.com</small></td>

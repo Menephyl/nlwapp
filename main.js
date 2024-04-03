@@ -14,8 +14,8 @@ const criarNovoParticipante = (participante) => {
         <br>
         <small>${participante.email}</small>
         </td>
-         <td>há 3 dias </td>
-        <td>há 3 minutos</td>
+         <td>${participante.dataInscrico}</td>
+        <td>${participante.dataCheckIn}</td>
 </tr>
 `
 

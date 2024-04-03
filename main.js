@@ -1,9 +1,4 @@
-const participante = {
-    nome: "Mayk Brito",
-    email: "mayk@gmail.com",
-    dataInscrico: new Date(2024,2,22,19,20),
-    dataCheckIn: new Date(2024,2,25,22,08);
-}
+
 
 let participantes = [
     {
@@ -80,7 +75,7 @@ const criarNovoParticipante = (participante) => {
 
 }
 
-const atualizarLista = (participante[2]) => {
+const atualizarLista = (participante) => {
 
 // substituir informação 
 document.querySelector('tbody').innerHTML = criarNovoParticipante(participante)

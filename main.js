@@ -1,4 +1,4 @@
-const mensagem = 'oi, tudo bem?';
+const mensagem = 'oi'
 
 inventei() // executar funcao
-alert(mensagem);
+window.alert(mensagem)

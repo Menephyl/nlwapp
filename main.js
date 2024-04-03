@@ -79,7 +79,7 @@ const atualizarLista = (participantes) => {
 //estrutura de repetição
 let output ="" 
 for(let participante of participantes){
-    output = output + 
+    output = output +  criarNovoParticipante(participante)
 }
 // substituir informação 
 document.querySelector('tbody').innerHTML = criarNovoParticipante(participantes[2])

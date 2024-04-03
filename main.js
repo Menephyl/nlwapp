@@ -80,4 +80,4 @@ const atualizarLista = (participante) => {
 // substituir informação 
 document.querySelector('tbody').innerHTML = criarNovoParticipante(participante)
 } 
-atualizarLista()
+atualizarLista(participantes[2])

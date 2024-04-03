@@ -1,5 +1,5 @@
 const criarNovoParticipante = () => {
-    return ´
+    return `
     <tr>
          <td>
         <strong>Diego Fernandes</strong>
@@ -9,7 +9,7 @@ const criarNovoParticipante = () => {
          <td>há 3 dias </td>
         <td>há 3 minutos</td>
 </tr>
-´
+`
 
 }
 

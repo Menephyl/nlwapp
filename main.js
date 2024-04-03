@@ -5,7 +5,12 @@ const participante = {
     dataCheckIn: new Date(2024,2,25,22,08)
 }
 
-let participantes = []
+let participantes = {
+    nome: "Mayk Brito",
+    email: "mayk@gmail.com",
+    dataInscrico: new Date(2024,2,22,19,20),
+    dataCheckIn: new Date(2024,2,25,22,08)
+}
 
 const criarNovoParticipante = (participante) => {
     return `

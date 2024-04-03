@@ -6,7 +6,7 @@ const participante = {
 }
 
 
-const criarNovoParticipante = () => {
+const criarNovoParticipante = (participante) => {
     return `
     <tr>
          <td>
@@ -21,12 +21,9 @@ const criarNovoParticipante = () => {
 
 }
 
-const atualizarLista = () => {
-
-// pegar informação html 
-
+const atualizarLista = (participante) => {
 
 // substituir informação 
-document.querySelector('tbody').innerHTML = criarNovoParticipante()
+document.querySelector('tbody').innerHTML = criarNovoParticipante(participante)
 } 
 atualizarLista()

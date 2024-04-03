@@ -10,7 +10,7 @@ const criarNovoParticipante = (participante) => {
     return `
     <tr>
          <td>
-        <strong>Diego Fernandes</strong>
+        <strong>${participante.nome}</strong>
         <br>
         <small>diego@gmail.com</small>
         </td>

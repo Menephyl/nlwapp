@@ -105,4 +105,6 @@ const adicionarParticipantes =(event) => {
         dataInscricao: new Date(),
         dataCheckIn: null
     }
+
+    participantes
 }

@@ -117,7 +117,7 @@ const adicionarParticipante =(event) => {
     }
     //verificar se o participante já existe
     const participanteExiste = participantes.find((p)=>
-         p.email == participante.email
+         p.email == participante.email //return imediato, sem necessidade de referenciar com chaves e 'return'
     
     )
     if(participanteExiste){

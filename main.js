@@ -123,7 +123,9 @@ const adicionarParticipante =(event) => {
 const fazerCheckIn = (event) =>{// encontrar o participante dentro da lista
     // atualizar checkIn do participante 
     //atualizar lista de participantes 
-    const participante = participantes.
+    const participante = participantes.find(() =>{
+
+    })
 
 
 

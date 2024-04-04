@@ -4,7 +4,7 @@ PODE AGRUPAR OUTROS SELETORES
 QUESTAO ESPECIFICIDADE
 altura da linha = font 14px/220% 'roboto' , sans- serif;
 TODOS OS ELEMENTOS HTML SAO CAIXAS - BOX MODEL
-
+margin, padding border- caixas que envelopam a caixa de cada elemento por padrao, podem ser configurados no css
 */
 body, table, input, button {
 font:400 16px/100% 'Roboto',  sans-serif;
@@ -18,7 +18,9 @@ table {
     border: 1px solid red;
     margin: 32px;
 }
-
+table thead{
+    
+}
 
 /* body, table, input, button {
     font: 300 16px/140% 'Roboto', sans-serif;

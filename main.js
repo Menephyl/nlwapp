@@ -89,6 +89,7 @@ for(let participante of participantes){
 // substituir informação 
 document.querySelector('tbody').innerHTML = output
 } 
+
 atualizarLista(participantes)
 
 const adicionarParticipantes =(event) => {

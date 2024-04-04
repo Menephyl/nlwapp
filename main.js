@@ -120,9 +120,9 @@ const adicionarParticipante =(event) => {
     atualizarLista(participantes)
 }
 
-const fazerCheckIn = (event) =>{
+const fazerCheckIn = (event) =>{// encontrar o participante dentro da lista 
 
 
-    
+
     // alert('chegamos aqui')
 }

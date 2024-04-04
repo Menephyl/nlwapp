@@ -8,6 +8,7 @@ margin, padding border- caixas que envelopam a caixa de cada elemento por padrao
 adicionando fontes no css
 variavel em css
 display -> apresentação de conteudo 
+trabalhando com seletores de classes
 */
 :root{
     --border: 1px solid #ffffff1a;

@@ -3,8 +3,10 @@ DECLARAÇÕES - INSTRUÇÕES PRO ESTILO DO DOCUMENTO
 PODE AGRUPAR OUTROS SELETORES
 QUESTAO ESPECIFICIDADE
 */
+body, table, input, button {
+font:16px 'Roboto',  sans-serif;
+}
 body{
-    font:16px 'Roboto' ,  sans-serif;
     background-color: #121214;
     color: #fff;
 }

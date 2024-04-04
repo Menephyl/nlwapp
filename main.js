@@ -116,9 +116,9 @@ const adicionarParticipante =(event) => {
         dataCheckIn: null
     }
     //verificar se o participante já existe
-    const participanteExiste = participantes.find((p)=>{
-        return p.email == participante.email
-    }
+    const participanteExiste = participantes.find((p)=>
+         p.email == participante.email
+    
     )
     if(participanteExiste){
         alert('Email já cadastrado!')

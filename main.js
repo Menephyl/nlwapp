@@ -63,8 +63,9 @@ let participantes = [
 const criarNovoParticipante = (participante) => {
     const dataInscricao = dayjs(Date.now()).to(participante.dataInscricao)
 
-    const dataCheckIn =  dayjs(Date.now()).to(participante.dataCheckIn)
+    let dataCheckIn =  dayjs(Date.now()).to(participante.dataCheckIn)
 
+    if
     
     return `
     <tr>
@@ -105,7 +106,7 @@ const adicionarParticipante =(event) => {
         dataInscricao: new Date(),
         dataCheckIn: null
     }
-    // espalhar
+    // espalhar spread
     participantes =[participante, ...participantes] 
     atualizarLista(participantes)
 }

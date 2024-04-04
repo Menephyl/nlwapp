@@ -121,7 +121,7 @@ const adicionarParticipante =(event) => {
     }
     )
     if(participanteExiste){
-        alert('Participante já cadastrado!')
+        alert('Email já cadastrado!')
         return
     }
 

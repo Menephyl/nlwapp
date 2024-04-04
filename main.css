@@ -20,7 +20,7 @@ table thead{
   font-size: 14px;
   line-height: 16px;  
 }
-thead th, td{
+thead th,tbody td{
     padding: 12px 16px; /*preenchimento*/
 }
 tbody{

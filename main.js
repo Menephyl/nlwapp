@@ -65,7 +65,9 @@ const criarNovoParticipante = (participante) => {
 
     let dataCheckIn =  dayjs(Date.now()).to(participante.dataCheckIn)
 
-    if
+    if(participante.dataCheckIn == null){
+        dataCheckIn = ''
+    }
     
     return `
     <tr>

@@ -21,6 +21,9 @@ table thead{
   font-size: 14px;
   line-height: 16px;  
 }
+thead th, td{
+    padding: 12px 16px; /*preenchimento*/
+}
 
 /* body, table, input, button {
     font: 300 16px/140% 'Roboto', sans-serif;

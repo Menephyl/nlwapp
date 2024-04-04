@@ -14,6 +14,7 @@ seletor universal *
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box; /* borda de caixa a caixa */
 }
 :root{
     --border: 1px solid #ffffff1a;

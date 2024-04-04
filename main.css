@@ -29,7 +29,11 @@ tbody td{
     line-height: 15px;
     color: #c4c4cc ;
 }
-
+tbody td strong{
+    color: #fff;
+    font-size:14px;
+    line-height: 16px; 
+}
 /* body, table, input, button {
     font: 300 16px/140% 'Roboto', sans-serif;
   }

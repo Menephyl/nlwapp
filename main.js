@@ -127,7 +127,8 @@ const fazerCheckIn = (event) =>{// encontrar o participante dentro da lista
         return p.email == event.target.dataset.email
     })
     participante.dataCheckIn = new Date()
-
+    
+    atualizarLista(participantes)
 
 
     // alert('chegamos aqui')

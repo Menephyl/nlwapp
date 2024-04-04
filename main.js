@@ -116,6 +116,7 @@ const adicionarParticipante =(event) => {
         dataCheckIn: null
     }
     //verificar se o participante já existe
+    const participanteExiste = participantes.find(p)
 
     // espalhar spread
     participantes =[participante, ...participantes] 

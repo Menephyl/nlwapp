@@ -106,6 +106,6 @@ const adicionarParticipantes =(event) => {
         dataCheckIn: null
     }
     // espalhar
-    participantes =[participante, ...participantes]; 
+    participantes =[participante,...participantes] 
     atualizarLista(participantes)
 }

@@ -18,6 +18,12 @@ body{
     background-color: #121214;
     color: #fff;
 }
+header{
+    padding: 28px 0;
+}
+form{
+    border: var(--border);
+}
 table {
    border-collapse: collapse;
 }

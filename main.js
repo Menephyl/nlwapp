@@ -120,7 +120,10 @@ const adicionarParticipante =(event) => {
         return p.email == participante.email
     }
     )
-    if(participanteExiste)
+    if(participanteExiste){
+        alert('Participante já cadastrado!')
+        return
+    }
 
     // espalhar spread
     participantes =[participante, ...participantes] 

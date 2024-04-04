@@ -2,9 +2,10 @@
 DECLARAÇÕES - INSTRUÇÕES PRO ESTILO DO DOCUMENTO
 PODE AGRUPAR OUTROS SELETORES
 QUESTAO ESPECIFICIDADE
+altura da linha = font 14px/220% 'roboto' , sans- serif;
 */
 body, table, input, button {
-font:16px 'Roboto',  sans-serif;
+font:400 16px/100% 'Roboto',  sans-serif;
 }
 body{
     background-color: #121214;

@@ -32,6 +32,7 @@ fieldset{
 }
 fieldset > div{
     display:flex ;
+    gap: 12px ; /* espaço entre itens dentro do display*/
 }
 table {
    border-collapse: collapse;

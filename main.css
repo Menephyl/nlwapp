@@ -38,7 +38,11 @@ tbody td strong{
 tbody td small{
     font-size: 12px;
     line-height: 16px;
-    
+
+}
+tbody td button{
+    all:unset; /*tire todas as coisas anteriores dele*/
+
 }
 /* body, table, input, button {
     font: 300 16px/140% 'Roboto', sans-serif;

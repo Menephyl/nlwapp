@@ -90,3 +90,5 @@ for(let participante of participantes){
 document.querySelector('tbody').innerHTML = output
 } 
 atualizarLista(participantes)
+
+const adicionarParticipantes =(event) =>

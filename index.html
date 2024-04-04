@@ -13,46 +13,48 @@
     <title>Document</title>
 </head>
 <body>
-<form  onsubmit ="adicionarParticipante(event)"> <!-- quando clicar em realizar inscrição,responder e enviar informarções -->
-    <fieldset>
-        <legend>
-            Inscrição
-            <div> <!-- criar uma div com classe basta escrever div.input-wrapper ( nesse caso)-->
-                <div class="input-wrapper">
-                <input type="text"
-                placeholder="Nome Completo"
-                name="nome"
-                required
-                >
+<div class="conteiner">
+    <form  onsubmit ="adicionarParticipante(event)"> <!-- quando clicar em realizar inscrição,responder e enviar informarções -->
+        <fieldset>
+            <legend>
+                Inscrição
+                <div> <!-- criar uma div com classe basta escrever div.input-wrapper ( nesse caso)-->
+                    <div class="input-wrapper">
+                    <input type="text"
+                    placeholder="Nome Completo"
+                    name="nome"
+                    required
+                    >
+                    </div>
+                    <div class="input-wrapper">
+                    <input type="email"
+                    placeholder="Email"
+                    name="email"
+    
+                    required
+                    >
                 </div>
-                <div class="input-wrapper">
-                <input type="email"
-                placeholder="Email"
-                name="email"
-        
-                required
-                >
-            </div>
-                <button>
-                    REALIZAR INSCRIÇÃO
-                </button>
-        
-            </div>
-        </legend>
-    </fieldset>
-</form>
-    <table width="100%">
-        <thead style="text-align: left;">
-            <tr>
-                <th>Participante</th>
-                <th>Data da inscrição</th>
-                <th>Data do check-in</th>
-            </tr>
-        </thead>
-        <tbody>
-           
-        </tbody>
-    </table>  
+                    <button>
+                        REALIZAR INSCRIÇÃO
+                    </button>
+    
+                </div>
+            </legend>
+        </fieldset>
+    </form>
+        <table width="100%">
+            <thead style="text-align: left;">
+                <tr>
+                    <th>Participante</th>
+                    <th>Data da inscrição</th>
+                    <th>Data do check-in</th>
+                </tr>
+            </thead>
+            <tbody>
+    
+            </tbody>
+        </table>
+</div>
 
     <script src="https://cdn.jsdelivr.net/npm/dayjs@1/dayjs.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/dayjs@1/plugin/relativeTime.js"></script>

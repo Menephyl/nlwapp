@@ -91,4 +91,9 @@ document.querySelector('tbody').innerHTML = output
 } 
 atualizarLista(participantes)
 
-const adicionarParticipantes =(event) =>
+const adicionarParticipantes =(event) => {
+    event.preventDefault // nao realizar ação ao clicar com o botao
+
+    const dadosDoFormulario = new FormData(event.target) // cte receberá dados ao clicar com o botao
+    alert(dadosDoFormulario.get('nome'))
+}

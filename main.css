@@ -9,6 +9,7 @@ adicionando fontes no css
 variavel em css
 display -> apresentação de conteudo 
 trabalhando com seletores de classes
+seletor universal *
 */
 :root{
     --border: 1px solid #ffffff1a;
@@ -36,7 +37,7 @@ fieldset > div{
     gap: 12px ; /* espaço entre itens dentro do display*/
 }
 .input-wrapper{
-    
+
 }
 table {
    border-collapse: collapse;

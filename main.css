@@ -1,5 +1,8 @@
-/*Cascading style sheets*/
+/*Cascading style sheets
+DECLARAÇÕES - INSTRUÇÕES PRO ESTILO DO DOCUMENTO
+*/
 body{
+    font: sans-serif;
     background-color: #121214;
     color: #fff;
 }

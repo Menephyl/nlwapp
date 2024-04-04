@@ -14,8 +14,7 @@ body{
     color: #fff;
 }
 table {
-    padding: 32px;
-        margin: 32px;
+   border-collapse: collapse;
 }
 table thead{
   font-size: 14px;

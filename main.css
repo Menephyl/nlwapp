@@ -7,6 +7,7 @@ TODOS OS ELEMENTOS HTML SAO CAIXAS - BOX MODEL
 margin, padding border- caixas que envelopam a caixa de cada elemento por padrao, podem ser configurados no css
 adicionando fontes no css
 variavel em css
+display -> apresentação de conteudo 
 */
 :root{
     --border: 1px solid #ffffff1a;
@@ -28,6 +29,9 @@ form{
 }
 fieldset{
     border: none;
+}
+fieldset > div{
+    display: ;
 }
 table {
    border-collapse: collapse;

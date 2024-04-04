@@ -61,6 +61,9 @@ color:#c4c4cc;
 input{
     all: unset;
 }
+fieldset legend, section h2{
+    font: 700 16px/140% 'Roboto', sans-serif;
+}
 fieldset button{
     width: fit-content;
     border: 0;

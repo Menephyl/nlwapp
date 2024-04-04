@@ -97,7 +97,7 @@ const adicionarParticipantes =(event) => {
 
     const dadosDoFormulario = new FormData(event.target) // cte receberá dados ao clicar com o botao
 
-    alert(dadosDoFormulario.get('email'))
+    // alert(dadosDoFormulario.get('email'))
 
     const participante = {
         nome: dadosDoFormulario.get('nome'),
@@ -106,6 +106,6 @@ const adicionarParticipantes =(event) => {
         dataCheckIn: null
     }
     // espalhar
-    participantes =[participante,...participantes] 
+    participantes =[participante, ...participantes] 
     atualizarLista(participantes)
 }

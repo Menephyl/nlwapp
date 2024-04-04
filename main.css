@@ -64,6 +64,7 @@ input{
 fieldset legend, section h2{
     font: 700 16px/140% 'Roboto', sans-serif;
     color: #e1e1e6;
+    padding-bottom: 16px;
 }
 fieldset button{
     width: fit-content;

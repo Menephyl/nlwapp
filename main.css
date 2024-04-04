@@ -24,6 +24,9 @@ table thead{
 thead th, td{
     padding: 12px 16px; /*preenchimento*/
 }
+tbody{
+    border-top: 1px solid #fff;
+}
 
 /* body, table, input, button {
     font: 300 16px/140% 'Roboto', sans-serif;

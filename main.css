@@ -11,6 +11,10 @@ display -> apresentação de conteudo
 trabalhando com seletores de classes
 seletor universal *
 */
+*{
+    margin: 0;
+    padding: 0;
+}
 :root{
     --border: 1px solid #ffffff1a;
 }

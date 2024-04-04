@@ -61,6 +61,12 @@ color:#c4c4cc;
 input{
     all: unset;
 }
+fieldset button{
+    width: fit-content;
+    border: 0;
+    background: #f48f56;
+
+}
 table {
    border-collapse: collapse;
 }

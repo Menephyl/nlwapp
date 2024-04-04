@@ -54,6 +54,7 @@ gap:12px;
 
 border: var(--border);
 border-radius: 10px;
+padding: 8px 12px;
 }
 input{
     all: unset;

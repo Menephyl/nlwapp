@@ -115,6 +115,8 @@ const adicionarParticipante =(event) => {
         dataInscricao: new Date(),
         dataCheckIn: null
     }
+    //verificar se o participante já existe
+
     // espalhar spread
     participantes =[participante, ...participantes] 
     atualizarLista(participantes)

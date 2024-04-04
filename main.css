@@ -35,6 +35,9 @@ fieldset > div{
     display:flex ;
     gap: 12px ; /* espaço entre itens dentro do display*/
 }
+.input-wrapper{
+    
+}
 table {
    border-collapse: collapse;
 }

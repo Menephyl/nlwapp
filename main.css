@@ -49,6 +49,9 @@ fieldset > div{
 .input-wrapper{
 flex: 1;
 }
+input{
+    all: unset;
+}
 table {
    border-collapse: collapse;
 }

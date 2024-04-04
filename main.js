@@ -120,4 +120,9 @@ const adicionarParticipante =(event) => {
     atualizarLista(participantes)
 }
 
-const fazerCheckIn
+const fazerCheckIn = (event) =>{
+
+
+    
+    // alert('chegamos aqui')
+}

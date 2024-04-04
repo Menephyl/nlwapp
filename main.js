@@ -121,7 +121,7 @@ const adicionarParticipante =(event) => {
 }
 
 const fazerCheckIn = (event) =>{//confirmar desejo de check-in
-    confirm('Tem certeza?')
+   if(confirm('Tem certeza?')) 
     alert(resultado)
     
     // encontrar o participante dentro da lista

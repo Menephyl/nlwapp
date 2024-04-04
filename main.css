@@ -23,6 +23,8 @@ header{
 }
 form{
     border: var(--border);
+    border-inline: none;
+    padding: 28px 0 ;
 }
 fieldset{
     border: none;

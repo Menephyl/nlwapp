@@ -3,6 +3,8 @@ DECLARAÇÕES - INSTRUÇÕES PRO ESTILO DO DOCUMENTO
 PODE AGRUPAR OUTROS SELETORES
 QUESTAO ESPECIFICIDADE
 altura da linha = font 14px/220% 'roboto' , sans- serif;
+TODOS OS ELEMENTOS HTML SAO CAIXAS - BOX MODEL
+
 */
 body, table, input, button {
 font:400 16px/100% 'Roboto',  sans-serif;
@@ -10,6 +12,10 @@ font:400 16px/100% 'Roboto',  sans-serif;
 body{
     background-color: #121214;
     color: #fff;
+}
+table {
+    padding: 32px;
+    
 }
 
 

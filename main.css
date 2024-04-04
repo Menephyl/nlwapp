@@ -28,6 +28,7 @@ body{
 }
 .container{
     max-width: 690px;
+    margin: 0 auto;
 }
 header{
     padding: 28px 0;

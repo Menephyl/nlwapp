@@ -101,6 +101,7 @@ const adicionarParticipantes =(event) => {
 
     const participante ={
         nome: dadosDoFormulario.get('nome'),
-        email:dadosDoFormulario.get('email')
+        email:dadosDoFormulario.get('email'),
+        dataInscricao: new Date(),
     }
 }

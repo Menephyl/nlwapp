@@ -98,4 +98,9 @@ const adicionarParticipantes =(event) => {
     const dadosDoFormulario = new FormData(event.target) // cte receberá dados ao clicar com o botao
 
     alert(dadosDoFormulario.get('email'))
+
+    const participante ={
+        nome: dadosDoFormulario.get('nome'),
+        email:dadosDoFormulario.get('email')
+    }
 }

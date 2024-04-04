@@ -53,6 +53,7 @@ align-items: center;
 gap:12px;
 
 border: var(--border);
+border-radius: 10px;
 }
 input{
     all: unset;

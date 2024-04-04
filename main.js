@@ -120,6 +120,7 @@ const adicionarParticipante =(event) => {
     atualizarLista(participantes)
     //Limpar o form
     event.target.querySelector('[name="nome"]').value = "" // pegar tambem seletor de produto 
+    event.target.querySelector('[name="email"]').value =""
 }
 
 const fazerCheckIn = (event) =>{//confirmar desejo de check-in

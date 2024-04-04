@@ -99,12 +99,13 @@ const adicionarParticipantes =(event) => {
 
     alert(dadosDoFormulario.get('email'))
 
-    const participante ={
+    const participante = {
         nome: dadosDoFormulario.get('nome'),
         email:dadosDoFormulario.get('email'),
         dataInscricao: new Date(),
         dataCheckIn: null
     }
     // espalhar
-    participantes =[participante, ...participantes] 
+    participantes =[participante, ...participantes]; 
+    atualizarLista(participantes)
 }

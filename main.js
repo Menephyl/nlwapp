@@ -118,7 +118,9 @@ const adicionarParticipante =(event) => {
     //verificar se o participante já existe
     const participanteExiste = participantes.find((p)=>{
         return p.email == participante.email
-    })
+    }
+    )
+    if(participanteExiste)
 
     // espalhar spread
     participantes =[participante, ...participantes] 

@@ -42,7 +42,11 @@ tbody td small{
 }
 tbody td button{
     all:unset; /*tire todas as coisas anteriores dele*/
+    color: #9ff9cc;
 
+}
+tbody td button:hover{
+    text-decoration: underline;
 }
 /* body, table, input, button {
     font: 300 16px/140% 'Roboto', sans-serif;

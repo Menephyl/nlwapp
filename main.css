@@ -80,7 +80,7 @@ fieldset button:hover{
     background: #f37c37 ;
 }
 .lista-participantes{
-    padding: 20px;
+    padding: 20px 0;
 }
 table {
    border-collapse: collapse;

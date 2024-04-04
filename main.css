@@ -82,6 +82,10 @@ fieldset button:hover{
 .lista-participantes{
     padding: 20px 0;
 }
+.lista-participantes >div{
+    border:var(--border);
+
+}
 table {
    border-collapse: collapse;
 }

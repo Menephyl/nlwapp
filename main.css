@@ -6,7 +6,11 @@ altura da linha = font 14px/220% 'roboto' , sans- serif;
 TODOS OS ELEMENTOS HTML SAO CAIXAS - BOX MODEL
 margin, padding border- caixas que envelopam a caixa de cada elemento por padrao, podem ser configurados no css
 adicionando fontes no css
+variavel em css
 */
+:root{
+    --border: 1px solid #ffffff1a;
+}
 body, table, input, button {
 font:400 16px/100% 'Roboto',  sans-serif;
 }
@@ -25,7 +29,7 @@ thead th,tbody td{
     padding: 12px 16px; /*preenchimento*/
 }
 tbody td{
-    border-top: 1px solid #fff;
+    border-top:var(--border)
     font-size: 13px;
     line-height: 15px;
     color: #c4c4cc ;

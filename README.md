@@ -40,12 +40,7 @@ Nesse projeto iremos desenvolver a versão simplificada de um sistema de check-i
         trabalhando com seletores de classes
         seletor universal *
         */
-    </code>
-</pre>
-
-<!-- //string 
-//funcao
-alert(mensagem)
+        alert(mensagem)
 
 // objeto javascript 
 const = participante = {
@@ -69,3 +64,9 @@ let output = ""
 for(let participante of participantes){
     output = output +  criarNovoParticipante(participante)
 } -->
+    </code>
+</pre>
+
+<!-- //string 
+//funcao
+

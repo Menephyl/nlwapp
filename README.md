@@ -6,8 +6,26 @@
 
 ##  versão simplificada de um sistema de check-in para eventos presenciais.
 
+### ANOTAÇÕES :
+<pre>
+    <code>
+        /*Cascading style sheets
+        DECLARAÇÕES - INSTRUÇÕES PRO ESTILO DO DOCUMENTO
+        PODE AGRUPAR OUTROS SELETORES
+        QUESTAO ESPECIFICIDADE
+        altura da linha = font 14px/220% 'roboto' , sans- serif;
+        TODOS OS ELEMENTOS HTML SAO CAIXAS - BOX MODEL
+        margin, padding border- caixas que envelopam a caixa de cada elemento por padrao, podem ser configurados no css
+        adicionando fontes no css
+        variavel em css
+        display -> apresentação de conteudo
+        trabalhando com seletores de classes
+        seletor universal *
+        */
+    </code>
+</pre>
 
-//string 
+<!-- //string 
 //funcao
 alert(mensagem)
 
@@ -32,4 +50,4 @@ let participantes = [
 let output = "" 
 for(let participante of participantes){
     output = output +  criarNovoParticipante(participante)
-}
+} -->

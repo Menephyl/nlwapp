@@ -1,10 +1,11 @@
 # nlwapp
  Project educational maked with learning with Rocketsteat - About
+![Sem título](https://github.com/Menephyl/nlwapp/assets/87574460/e4c42388-6824-41c5-9085-2fa395888421)
 
 ## Aplicação front-end em HTML+CSS+JS desenvolvida durante o NLW Unite da Rocketseat 
 
 ##  versão simplificada de um sistema de check-in para eventos presenciais.
-![alt text](image.png)
+
 
 //string 
 //funcao

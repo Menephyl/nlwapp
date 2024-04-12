@@ -7,6 +7,24 @@
 ##  versão simplificada de um sistema de check-in para eventos presenciais.
 
 ### ANOTAÇÕES :
+<p align="center">
+<a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+<a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#memo-licença">Licença</a>
+  </p>
+  <p align="center">
+  <img alt="Preview do projeto desenvolvido." src="">
+  ## 🚀 Tecnologias
+
+Esse projeto foi desenvolvido com as seguintes tecnologias:
+
+- HTML
+- CSS
+- JavaScript
+
+## Projeto
+
+Nesse projeto iremos desenvolver a versão simplificada de um sistema de check-in para eventos presenciais.
 <pre>
     <code>
         /*Cascading style sheets

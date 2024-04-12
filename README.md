@@ -1,5 +1,5 @@
 # nlwapp
- Project educational maked with learning with Rocketsteat - About
+
 ![Sem título](https://github.com/Menephyl/nlwapp/assets/87574460/e4c42388-6824-41c5-9085-2fa395888421)
 
 ## Aplicação front-end em HTML+CSS+JS desenvolvida durante o NLW Unite da Rocketseat 
@@ -13,7 +13,7 @@
   <a href="#memo-licença">Licença</a>
   </p>
   <p align="center">
-  <img alt="Preview do projeto desenvolvido." src="">
+
   ## 🚀 Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:

@@ -101,6 +101,7 @@ tbody td{
     border-top:var(--border);
     font-size: 13px;
     line-height: 15px;
+    font-weight: 600;
     color: #c4c4cc ;
 }
 tbody td strong{

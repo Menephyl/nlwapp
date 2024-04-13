@@ -64,9 +64,7 @@ let output = ""
 for(let participante of participantes){
     output = output +  criarNovoParticipante(participante)
 } -->
+
     </code>
 </pre>
-
-<!-- //string 
-//funcao
 

@@ -35,5 +35,19 @@ O projeto é uma **versão simplificada de um sistema de check-in para eventos p
 
 ## 📂 Estrutura do Projeto
 
+nlwapp/ ├── index.html # Página principal ├── main.css # Estilos da aplicação ├── main.js # Lógica em JavaScript ├── nlwimg.png # Imagem ilustrativa ├── image.png # Outra imagem do projeto ├── LICENSE # Licença MIT └── README.md # Documentação
 
+Código
+
+---
+
+## 🛠️ Como Executar Localmente
+
+1. Clone este repositório:
+   ```bash
+   git clone https://github.com/Menephyl/nlwapp.git
+Acesse a pasta do projeto:
+
+bash
+cd nlwapp
 
